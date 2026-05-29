@@ -1,0 +1,5 @@
+C:\Dev\CompilerPascal\compiler.cpp;C:\Dev\CompilerPascal\CompilerPascal\x64\Debug\compiler.obj
+C:\Dev\CompilerPascal\CompilerPascal.cpp;C:\Dev\CompilerPascal\CompilerPascal\x64\Debug\CompilerPascal.obj
+C:\Dev\CompilerPascal\lexer.cpp;C:\Dev\CompilerPascal\CompilerPascal\x64\Debug\lexer.obj
+C:\Dev\CompilerPascal\parser.cpp;C:\Dev\CompilerPascal\CompilerPascal\x64\Debug\parser.obj
+C:\Dev\CompilerPascal\semantic.cpp;C:\Dev\CompilerPascal\CompilerPascal\x64\Debug\semantic.obj

@@ -1,0 +1,26 @@
+ПРОМЕЖУТОЧНЫЙ КОД (ОБРАТНАЯ ПОЛЬСКАЯ ЗАПИСЬ)
+1) [declaration] a DECL | корректно
+2) [declaration] b DECL | корректно
+3) [declaration] c DECL | корректно
+4) [read] a READ b READ | корректно
+5) [write] a b + WRITE | корректно
+6) [assignment] a b 2 * + c ASSIGN | корректно
+7) [write] c WRITE | корректно
+8) [label] L1 LABEL | корректно
+9) [while-condition] a 10 < L2 JZ | корректно
+10) [assignment] a 1 + a ASSIGN | корректно
+11) [write] a WRITE | корректно
+12) [while-loop-back] L1 JMP | корректно
+13) [label] L2 LABEL | корректно
+
+ПОЛНАЯ ПОЛЬСКАЯ ЗАПИСЬ ПРОГРАММЫ:
+a DECL b DECL c DECL a READ b READ a b + WRITE a b 2 * + c ASSIGN c WRITE L1 LABEL a 10 < L2 JZ a 1 + a ASSIGN a WRITE L1 JMP L2 LABEL 
+
+ТАБЛИЦА СИМВОЛОВ
+Имя                  | Тип              | Объявлена      | Инициализирована  
+-------------------------------------------------------------------------------
+a                    | INTEGER          | Да             | Да                
+b                    | INTEGER          | Да             | Да                
+c                    | INTEGER          | Да             | Да                
+
+Семантических ошибок не обнаружено
